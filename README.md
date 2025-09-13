@@ -376,8 +376,7 @@ If you use this implementation in your research, please cite:
 
 For questions or issues:
 
-- 📧 **Email**: your.email@university.edu
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/vae-data-generation/issues)
+- 📧 **Email**: asheq100mahmud@gmail.com
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/vae-data-generation/discussions)
 
 ## 📜 License
