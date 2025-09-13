@@ -1205,14 +1205,14 @@ def save_final_results():
     with open('results/submission_summary.json', 'w') as f:
         json.dump(submission_summary, f, indent=2)
 
-    print("✅ All results saved successfully!")
-    print("📁 Files ready for submission:")
+    print(" All results saved successfully!")
+    print(" Files ready for submission:")
     for file in submission_summary['files_generated']:
         print(f"   • {file}")
 
 save_final_results()
 
-print("\n" + "🎯 PROJECT COMPLETION CHECKLIST" + "\n" + "=" * 40)
+print("\n" + " PROJECT COMPLETION CHECKLIST" + "\n" + "=" * 40)
 checklist_items = [
     " VAE model implemented with stochastic sampling",
     " Deterministic baseline model created",
@@ -1230,5 +1230,5 @@ checklist_items = [
 for item in checklist_items:
     print(item)
 
-print("\n🎓 READY FOR REPORT WRITING!")
+print("\n READY FOR REPORT WRITING!")
 print("Use the generated visualizations, metrics, and analysis for your comprehensive report.")
